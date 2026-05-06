@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Blue Diving — Explore the Ocean Depths</title>
+    <meta name="description" content="Professional sea diving experiences. Discover coral reefs, marine life, and underwater adventures with Deep Blue Diving.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <i class="fas fa-water loader-icon"></i>
+            <h2>Deep Blue Diving</h2>
+            <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-brand">
+                <i class="fas fa-water"></i>
+                <span>Deep Blue Diving</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experiences">Experiences</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-primary btn-nav">Book a Dive</a>
+            <div class="hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-tagline">DISCOVER THE UNDERWATER WORLD</p>
+            <h1>Dive Into the <span class="highlight">Deep Blue</span></h1>
+            <p class="hero-description">Experience the breathtaking beauty of the ocean. From vibrant coral reefs to majestic marine life, every dive is an adventure waiting to unfold.</p>
+            <div class="hero-buttons">
+                <a href="#experiences" class="btn btn-primary btn-lg">Explore Experiences</a>
+                <a href="#about" class="btn btn-outline btn-lg">Learn More</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" data-target="500">0</span>+
+                    <span class="stat-label">Dives Completed</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="50">0</span>+
+                    <span class="stat-label">Dive Sites</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number" data-target="200">0</span>+
+                    <span class="stat-label">Happy Divers</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="images/underwater.jpg" alt="Underwater diving">
+                    <div class="about-badge">
+                        <span>15+</span>
+                        <small>Years Experience</small>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title-left">About Deep Blue Diving</h2>
+                    <p class="lead">We are passionate about sharing the magic of the underwater world with divers of all levels.</p>
+                    <p>Founded by a team of PADI-certified dive masters, Deep Blue Diving offers world-class diving experiences across the most stunning dive sites in the Indian Ocean. Whether you're a beginner taking your first breath underwater or an experienced diver seeking new thrills, we have the perfect adventure for you.</p>
+                    <p>Our commitment to safety, marine conservation, and unforgettable experiences sets us apart. We believe every dive should be a journey of discovery.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Safety First</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-certificate"></i>
+                            <span>PADI Certified</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-leaf"></i>
+                            <span>Eco-Friendly</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-users"></i>
+                            <span>Small Groups</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section id="experiences" class="experiences">
+        <div class="container">
+            <h2 class="section-title">Diving Experiences</h2>
+            <p class="section-subtitle">Choose your next underwater adventure</p>
+            <div class="experiences-grid">
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="images/coral.jpg" alt="Coral Reef Diving">
+                        <div class="experience-tag">Popular</div>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Coral Reef Exploration</h3>
+                        <p>Discover vibrant coral gardens teeming with tropical fish and marine creatures in crystal-clear waters.</p>
+                        <div class="experience-meta">
+                            <span><i class="fas fa-clock"></i> 2-3 hours</span>
+                            <span><i class="fas fa-water"></i> 5-18m depth</span>
+                        </div>
+                        <div class="experience-price">
+                            <span class="price">$85</span>
+                            <a href="#contact" class="btn btn-sm btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="images/adventure.png" alt="Deep Sea Adventure">
+                        <div class="experience-tag">Adventure</div>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Deep Sea Adventure</h3>
+                        <p>Push your limits with deep dives to explore underwater caves, shipwrecks, and deep-sea marine life.</p>
+                        <div class="experience-meta">
+                            <span><i class="fas fa-clock"></i> 3-4 hours</span>
+                            <span><i class="fas fa-water"></i> 18-40m depth</span>
+                        </div>
+                        <div class="experience-price">
+                            <span class="price">$150</span>
+                            <a href="#contact" class="btn btn-sm btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="experience-image">
+                        <img src="images/reef.jpg" alt="Night Diving">
+                        <div class="experience-tag">Unique</div>
+                    </div>
+                    <div class="experience-content">
+                        <h3>Night Diving</h3>
+                        <p>Experience the ocean after dark. Witness bioluminescent creatures and nocturnal marine life in action.</p>
+                        <div class="experience-meta">
+                            <span><i class="fas fa-clock"></i> 2 hours</span>
+                            <span><i class="fas fa-water"></i> 5-15m depth</span>
+                        </div>
+                        <div class="experience-price">
+                            <span class="price">$120</span>
+                            <a href="#contact" class="btn btn-sm btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Underwater Gallery</h2>
+            <p class="section-subtitle">Moments captured beneath the waves</p>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="images/hero.jpg" alt="Diver in bait ball">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/coral.jpg" alt="Coral reef">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/diving.jpg" alt="Scuba diver">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/reef.jpg" alt="Reef exploration">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/underwater.jpg" alt="Underwater photography">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/adventure.png" alt="Diving adventure">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">Diving Courses</h2>
+            <p class="section-subtitle">From beginner to professional — start your diving journey</p>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-level">Beginner</div>
+                    <h3>Open Water Diver</h3>
+                    <p>Your first step into the underwater world. Learn fundamental diving skills and safety procedures.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> 4 days training</li>
+                        <li><i class="fas fa-check"></i> Pool & ocean sessions</li>
+                        <li><i class="fas fa-check"></i> PADI certification</li>
+                        <li><i class="fas fa-check"></i> Equipment included</li>
+                    </ul>
+                    <div class="course-price">
+                        <span>$350</span>
+                        <a href="#contact" class="btn btn-outline btn-full">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="course-card featured">
+                    <div class="course-badge">Most Popular</div>
+                    <div class="course-level">Intermediate</div>
+                    <h3>Advanced Open Water</h3>
+                    <p>Expand your skills with deep diving, navigation, and specialty dives in diverse conditions.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> 3 days training</li>
+                        <li><i class="fas fa-check"></i> 5 adventure dives</li>
+                        <li><i class="fas fa-check"></i> Deep dive to 30m</li>
+                        <li><i class="fas fa-check"></i> Navigation skills</li>
+                    </ul>
+                    <div class="course-price">
+                        <span>$450</span>
+                        <a href="#contact" class="btn btn-primary btn-full">Enroll Now</a>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-level">Professional</div>
+                    <h3>Divemaster</h3>
+                    <p>Become a diving professional. Lead dives, assist instructors, and turn your passion into a career.</p>
+                    <ul class="course-features">
+                        <li><i class="fas fa-check"></i> 4-6 weeks training</li>
+                        <li><i class="fas fa-check"></i> Leadership skills</li>
+                        <li><i class="fas fa-check"></i> Rescue techniques</li>
+                        <li><i class="fas fa-check"></i> Career opportunities</li>
+                    </ul>
+                    <div class="course-price">
+                        <span>$1,200</span>
+                        <a href="#contact" class="btn btn-outline btn-full">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Divers Say</h2>
+            <p class="section-subtitle">Stories from our underwater community</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"An absolutely incredible experience! The instructors were professional and the dive sites were breathtaking. Can't wait to come back!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div>
+                            <strong>Marcus Chen</strong>
+                            <span>Open Water Diver</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"The night dive was unlike anything I've ever experienced. Seeing bioluminescent plankton up close was magical. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div>
+                            <strong>Sarah Williams</strong>
+                            <span>Advanced Diver</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Got my PADI certification here and it changed my life. The team is amazing, safety-focused, and truly passionate about the ocean."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">R</div>
+                        <div>
+                            <strong>Raj Patel</strong>
+                            <span>Certified Diver</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2 class="section-title-left">Ready to Dive?</h2>
+                    <p>Book your next underwater adventure or get in touch with our team for any questions.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Location</strong>
+                                <span>Hikkaduwa, Sri Lanka</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <span>+94 77 123 4567</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <span>info@deepbluediving.lk</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Hours</strong>
+                                <span>Daily: 6:00 AM - 6:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Select Experience</option>
+                                <option>Coral Reef Exploration</option>
+                                <option>Deep Sea Adventure</option>
+                                <option>Night Diving</option>
+                                <option>Open Water Course</option>
+                                <option>Advanced Course</option>
+                                <option>Divemaster Course</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full btn-lg">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fas fa-water"></i>
+                        <span>Deep Blue Diving</span>
+                    </div>
+                    <p>Exploring the underwater world since 2010. PADI certified dive center committed to safety, education, and marine conservation.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#about">About Us</a>
+                    <a href="#experiences">Experiences</a>
+                    <a href="#courses">Courses</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Dive Sites</h4>
+                    <a href="#">Hikkaduwa Reef</a>
+                    <a href="#">Pigeon Island</a>
+                    <a href="#">Bar Reef</a>
+                    <a href="#">Great Basses</a>
+                    <a href="#">Kirinda Wreck</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Deep Blue Diving. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
